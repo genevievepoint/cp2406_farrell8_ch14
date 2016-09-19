@@ -21,7 +21,7 @@ public class DebugFourteen4 extends JFrame implements ItemListener
    int totalPrice = 0;
    final int HIGH_PRICE = 3;
    final int LOW_PRICE = 2;
-   public FixDebugFourteen4()
+   public DebugFourteen4()
    {
       super("Beverage Selector");
       setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -44,7 +44,7 @@ public class DebugFourteen4 extends JFrame implements ItemListener
    public static void main(String[] arguments)
    {
       JFrame bFrame = new DebugFourteen4();
-      bFrame.setSize(350, 100);
+      bFrame.setSize(700, 200);
       bFrame.setVisible(true);
    } 
    @Override
